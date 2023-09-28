@@ -15,6 +15,7 @@ To run the Jar files:
   - $ hdfs dfs -mkdir <desired directory name>
 
 - Put your input_hw1.txt file in the directory
+  - Change cd to Directory where Assignment1-DHL190004 is stored
   - $ hdfs dfs -put <filename in local file system/source> <target directory in HDFS>
 
 - Change cd to Directory where Assignment1-DHL190004 is stored
