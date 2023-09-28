@@ -3,7 +3,7 @@
 To run the Jar files:
 - Open your Ubuntu environment in your Virtual Machine
   
-- Find the Directory where Assignment1-DHL190004 is stored
+- Find the Directory where Assignment1 is stored
   
 - Open your Linux Terminal (ctrl + alt + t)
   
@@ -15,12 +15,12 @@ To run the Jar files:
   - $ hdfs dfs -mkdir <desired directory name>
 
 - Put your input_hw1.txt file in the directory
-  - Change cd to Directory where Assignment1-DHL190004 is stored
+  - Change cd to Directory where Assignment1 is stored
   - $ hdfs dfs -put <filename in local file system/source> <target directory in HDFS>
 
-- Change cd to Directory where Assignment1-DHL190004 is stored
+- Change cd to Directory where Assignment1 is stored
   - Make sure your first slash is backwards than all the rest are forwards
-    - for example, $ cd \Documents/Assignment1-DHL190004
+    - for example, $ cd \Documents/Assignment1
 
   - To run each JAR file:
     - For 2A
@@ -35,7 +35,7 @@ To run the Jar files:
       - Run: $ cd /Assignment_1_2C
       - Next Run: $ hadoop jar Assignment1_2C.jar Assignment1_2C /user/daniel/input/input_hw1.txt /output2C
 
-- Outputs are already in Assignment1-DHL190004:
+- Outputs are already in Assignment1:
     - Open folder of corresponding problem i.e. for 2C Assignment_1_2C
     - Click on output<problem number> i.e. output2C
     - Open text file output_<problem number> to see the results for the corresponding problem number i.e.
